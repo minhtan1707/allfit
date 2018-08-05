@@ -48,7 +48,7 @@ function sidemenuoverhome(){
     document.getElementById('sidemenu-home').style="padding:30 70px;font-size:1.8rem;background-color:white;color:#101828;"
 }
 function sidemenuoverabout(){
-    document.getElementById('img-about').style="transform:translateX(-550px);";
+    document.getElementById('img-about').style="transform:translateX(-500px);";
     document.getElementById('sidemenu-about').style="padding:30 70px;font-size:1.8rem;background-color:white;color:#101828;"
 }
 function sidemenuoverservices(){
@@ -56,7 +56,7 @@ function sidemenuoverservices(){
     document.getElementById('sidemenu-services').style="padding:30 70px;font-size:1.8rem;background-color:white;color:#101828;"
 }
 function sidemenuovergallery(){
-    document.getElementById('img-gallery').style="transform:translateX(-550px);";
+    document.getElementById('img-gallery').style="transform:translateX(-450px);";
     document.getElementById('sidemenu-gallery').style="padding:30 70px;font-size:1.8rem;background-color:white;color:#101828;"
 }
 
