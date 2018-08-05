@@ -1,0 +1,49 @@
+.sidemenu-item{
+    height:100%;
+    width:24%;
+    transition:1s;
+    position: relative;
+    overflow:hidden;
+
+}
+.sidemenu-p{
+    margin:auto;
+    background-color:rgba(255, 255, 255, 0.238);
+    padding:0 20px;
+    position: relative;
+    z-index:2000;
+    color:white;
+    font-weight:bold;
+    transition:1s;
+}
+.sidemenu-item img{
+    position:absolute;
+    height:100%;
+    transition:1.5s;
+    transform:translateX(400px);
+}
+.sidemenu-wrap{
+    height:100%;
+    position: relative;
+    overflow:hidden;
+}
+/* .about img{
+    position:absolute;
+    height:100%;
+    transition:2s;
+    transform:translateX(250px);
+}
+.services img{
+    position:absolute;
+    height:100%;
+    transition:2s;
+    transform:translateX(250px);
+}
+.gallery img{
+    position:absolute;
+    height:100%;
+    transition:2s;
+    transform:translateX(250px);
+} */
+
+
