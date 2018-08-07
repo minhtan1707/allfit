@@ -281,9 +281,9 @@ color:white;
   margin-bottom:50px;
 }
 .inner-pack{
-  border:1px solid grey;
-  padding:5px;
-  /* transition:height 1s; */
+  border:0px solid grey;
+  padding:0px;
+  transition:height 0.8s;
   overflow:hidden;
   /* height:0px; */
   position:relative;

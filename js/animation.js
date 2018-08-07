@@ -42,26 +42,26 @@ function closemenu(){
 
 
 
-$(document).ready(function(){
-    $('.perk-image').click(function(){
-        $(this).parent().find('.inner-pack').slideToggle();
-    })
-});
+// $(document).ready(function(){
+//     $('.perk-image').click(function(){
+//         $(this).parent().find('.inner-pack').slideToggle();
+//     })
+// });
 
-// function slidein($a)
-// {
-//     if(document.getElementById($a).style.height =='0px')
-//     {
-//         document.getElementById($a).style.height='300px';
-//         document.getElementById($a).style.padding='0 5px';
-//         document.getElementById($a).style.border='1px solid grey';
-//     }
-//     else
-//     { 
-//         document.getElementById($a).style.height='0px';
-//         document.getElementById($a).style.padding='0 5px';
-//     }
-// }
+function slidein($a)
+{
+    if(document.getElementById($a).style.height =='0px')
+    {
+        document.getElementById($a).style.height='300px';
+        document.getElementById($a).style.padding='0 5px';
+        document.getElementById($a).style.border='1px solid grey';
+    }
+    else
+    { 
+        document.getElementById($a).style.height='0px';
+        document.getElementById($a).style.padding='0 5px';
+    }
+}
 
 
 var figure = $(".video").hover( hoverVideo, hideVideo );

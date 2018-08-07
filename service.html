@@ -263,45 +263,54 @@
                                                 <h3>Sign up now</h3>
                                                 <p>Fill in the form below to get instant access.</div>
                                             <table>
-                                                <tr>
-                                                    <td align="right" width="30%">Username</td>
-                                                    <td colspan="2">
-                                                        <input type="text">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="right">Password</td>
-                                                    <td colspan="2">
-                                                        <input type="password">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="right">Email</td>
-                                                    <td colspan="2">
-                                                        <input type="email">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="right">Address</td>
-                                                    <td colspan="2">
-                                                        <input type="text">
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="right">Age</td>
-                                                    <td colspan="2">
-                                                        <input type="range" min="18" value="20" max="40" data-show-value="true">
-                                                    </td>
-                                                </tr>
+                                                <form>
+                                                    <tr>
+                                                        <td align="right" width="30%">Username</td>
+                                                        <td colspan="2">
+                                                            <input type="text" id=name onkeyup="namevalidate()"><span style="color:red">*</span>
+                                                            <p class=err id=nameerr></p>    
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="right">Password</td>
+                                                        <td colspan="2">
+                                                            <input type="password" id=pass onkeyup="passwordvalidate()"><span style="color:red">*</span>
+                                                            <p class=err id=passerr></p>    
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="right">Email</td>
+                                                        <td colspan="2">
+                                                            <input type="email" id=email onkeyup="mailvalidate()"><span style="color:red">*</span>
+                                                            <p class=err id=emailerr></p>    
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="right">Phone</td>
+                                                        <td colspan="2">
+                                                            <input type="text" id=phone onkeyup="phonevalidate()"><span style="color:red">*</span>
+                                                            <p class=err id=phoneerr></p>    
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="right">Age</td>
+                                                        <td colspan="2">
+                                                            <input type="number" min=0 max=100 value=0>
+                                                        </td>
+                                                    </tr>
 
 
-                                                <tr>
+                                                    <tr>
 
-                                                    <td class="button" colspan="2">
-                                                        <button type="button" tabindex="3" class="btn regbtn">Register</button>
-                                                    </td>
-                                                </tr>
-
+                                                        <td class="button" colspan="2">
+                                                            <button type="submit" tabindex="3" class="btn regbtn"  onclick="return kiemtra()">Register</button>
+                                                        </td>
+                                                    </tr>
+                                                </form>
                                             </table>
                                             </p>
                                         </div>
@@ -764,6 +773,7 @@
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/validate.js"></script>
 </body>
 
 </html>

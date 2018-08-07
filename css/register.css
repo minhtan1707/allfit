@@ -41,5 +41,7 @@ footer{
     background-color:#101828;
     color:white;
 }
-
+.err{
+    color:red;
+}
 
